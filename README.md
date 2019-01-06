@@ -5,4 +5,8 @@
 
 JavaScript code for the Classic-Coding-Challenge is written in a very simplier way, so that everyone can understand it.
 
+Showing constructors and methods used in the program:
+![alt text](https://github.com/gilann/Classic-Cookie-Challenge/blob/gh-pages/CookieChallenge.PNG "Basic block of program")
+
+
 
