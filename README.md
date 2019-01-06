@@ -29,10 +29,10 @@ Attributes of Node object are
 Methods of Node objects
 ##### getNeighbours, gets all the neighbours of a node
 
-var cookie1 =  new Cookie(4,4); //create a cookie
-cookie1.populate();             //populate it
-cookie1.findChocoChip();        //find choco-chips
-console.log(result);            //print the result on console
+var cookie1 =  new Cookie(4,4); //create a cookie___
+cookie1.populate();             //populate it___
+cookie1.findChocoChip();        //find choco-chips___
+console.log(result);            //print the result on console___
 
 #### [Visit and go to console or clickf f12 to check the result](https://gilann.github.io/Classic-Cookie-Challenge/)
 
