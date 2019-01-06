@@ -8,7 +8,7 @@ JavaScript code for the Classic-Coding-Challenge is written in a very simplier w
 Showing constructors and methods used in the program:
 ![alt text](https://github.com/gilann/Classic-Cookie-Challenge/blob/gh-pages/CookieChallenge.PNG "Basic block of program")
 
-##Explaination of the program
+## Explaination of the program
 
 Program contains two constructors **Cookie** which creates a cookie object and **Node** which create node or element objects for the cookie.
 
