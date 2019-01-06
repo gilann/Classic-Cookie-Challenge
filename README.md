@@ -27,9 +27,10 @@ Program contains two constructors **Cookie** which creates a cookie object and *
 ##### isChecked, indicates if the node is checked or not, false means not checked and true means checked
 
 4. Methods of Node objects
-##### getNeighbours, gets all the neighbours of a node
+#### getNeighbours, gets all the neighbours of a node
 
-5. For object creation and to populat and find result
+5. For object creation and to populate and find result   
+
 var cookie1 =  new Cookie(4,4); //create a cookie    
 
 cookie1.populate();             //populate it    
