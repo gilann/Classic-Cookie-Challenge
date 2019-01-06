@@ -19,7 +19,7 @@ Attributes of Cookie object are
 ###### cookie, a 2D array, which stores node or element object corresponding to values
 
 Methods of Cookie object are
-###### populate, which initializes all the nodes and stores it in cookie array depending on values array
+##### populate, which initializes all the nodes and stores it in cookie array depending on values array
 ###### findChocoChip, which finds all the different choco-chips and stores their sizes into result array
 
 
