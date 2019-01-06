@@ -12,24 +12,24 @@ Showing constructors and methods used in the program:
 
 Program contains two constructors **Cookie** which creates a cookie object and **Node** which create node or element objects for the cookie.
 
-Attributes of Cookie object are 
+1. Attributes of Cookie object are 
 ##### width, which stores width of cookie object
 ##### height, which stores height of cookie object
 ##### values, which stores value of elements in 2D array
 ##### cookie, a 2D array, which stores node or element object corresponding to values
 
-Methods of Cookie object are
+2. Methods of Cookie object are
 ##### populate, which initializes all the nodes and stores it in cookie array depending on values array
 ##### findChocoChip, which finds all the different choco-chips and stores their sizes into result array
 
-Attributes of Node object are
+3. Attributes of Node object are
 ##### value, which stores value of the Node 0 or 1
 ##### isChecked, indicates if the node is checked or not, false means not checked and true means checked
 
-Methods of Node objects
+4. Methods of Node objects
 ##### getNeighbours, gets all the neighbours of a node
 
-For object creation and to populat and find result
+5. For object creation and to populat and find result
 var cookie1 =  new Cookie(4,4); //create a cookie    
 
 cookie1.populate();             //populate it    
