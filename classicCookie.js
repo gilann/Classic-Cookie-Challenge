@@ -111,7 +111,7 @@ Node.prototype.getNeighbours = function(){
         return 0;
     }
 }
-var cookie1 =  new Cookie(4, 4, [[1,1,0,1],[1,0,1,1], [0,1,0,1], [1,1,1,1]]); //create a cookie
+var cookie1 =  new Cookie(5,5, [[1,0,0,1,0],[1,0,1,0,0],[0,0,1,0,1],[1,0,1,0,1],[1,0,1,1,0]]); //create a cookie
 cookie1.populate();             //populate it
 cookie1.findChocoChip();        //find choco-chips
 console.log(result);            //print the result on console
