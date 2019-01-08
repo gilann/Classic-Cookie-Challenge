@@ -1,11 +1,11 @@
 var result = [];
 var k=-1;
 //Constructor to create a Cookie object
-function Cookie(width, height){
+function Cookie(width, height, array){
     this.width=width;
     this.height=height;
     this.cookie =[];
-    this.values = [[1,1,0,1], [1,1,0,1], [0,1,1,0], [0,0,1,0]];
+    this.values = array;
     
 }
 //Constructor to create elements(nodes) of a Cookie
@@ -26,7 +26,8 @@ Cookie.prototype.populate = function(){
 }
 //Cookie method which find all the different Choco-Chips with its size and store it in result array
 Cookie.prototype.findChocoChip= function(){
-    
+    result = [];
+    k=-1;
     for(i=0; i<this.height; i++){
         for(j=0; j<this.width; j++){
             if(!this.cookie[i][j].isChecked&&this.cookie[i][j].value==1){
@@ -110,7 +111,7 @@ Node.prototype.getNeighbours = function(){
         return 0;
     }
 }
-var cookie1 =  new Cookie(4,4); //create a cookie
+var cookie1 =  new Cookie(4, 4, [[1,1,0,1],[1,0,1,1], [0,1,0,1], [1,1,1,1]]); //create a cookie
 cookie1.populate();             //populate it
 cookie1.findChocoChip();        //find choco-chips
 console.log(result);            //print the result on console
