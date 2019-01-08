@@ -26,6 +26,8 @@ Cookie.prototype.populate = function(){
 }
 //Cookie method which find all the different Choco-Chips with its size and store it in result array
 Cookie.prototype.findChocoChip= function(){
+    var result = [];
+    var k=-1;
     for(i=0; i<this.height; i++){
         for(j=0; j<this.width; j++){
             if(!this.cookie[i][j].isChecked&&this.cookie[i][j].value==1){
