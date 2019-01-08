@@ -39,9 +39,6 @@ cookie1.findChocoChip();        //find choco-chips
 
 console.log(result);            //print the result on console   
 
-#### [Visit and go to console or clickf f12 to check the result](https://gilann.github.io/Classic-Cookie-Challenge/)
-
-You can change the value of cookie1.values in console for different result
 
 
 
