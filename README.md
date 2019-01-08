@@ -39,7 +39,19 @@ cookie1.findChocoChip();        //find choco-chips
 
 console.log(result);            //print the result on console   
 
+To tryout different inputs,
+just [click](https://gilann.github.io/Classic-Cookie-Challenge/) here and
+go to console.
+And type
+cookie1 = new Cookie(width,height, 2DArray);
+for example:-
+cookie1 = new Cookie(5,5, [[1,0,0,1,0],[1,0,1,0,0],[0,0,1,0,1],[1,0,1,0,1],[1,0,1,1,0]]);
+then type
+cookie1.populate();
 
+cookie1.findChocoChip();
+
+console.log(result); //to see result
 
 
 
